@@ -1,7 +1,9 @@
 #pragma once
+#include <string>
 
-namespace lab {
-	void Summa(char a[], char b[], int a_size, int b_size);
-	void Multi(char a[1000], char b[1000]);
-	void printResult(std::string a);
+namespace an
+{
+	void CheckSizeAndSwap(std::string* a, std::string* b);
+	std::string Sum(std::string a, std::string b);
+	std::string Mult(std::string a, std::string b);
 }
